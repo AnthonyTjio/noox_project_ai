@@ -1,0 +1,103 @@
+[
+	{
+		"src": "gemarakyat",
+		"base_url": "http://gemarakyat.id",
+		"regex": "^(http://)?www.gemarakyat.id/(?!(author|tag|wp-content|category|home|panduan-media-siber|copyright|tentang-situs-dan-redaksi)/)(?!.*#respond$).+$",
+		"title_level": "h1",
+		"title_tag": "class",
+		"title_code": "entry-title",
+		"article_level": "p",
+		"article_tag": null,
+		"article_code": null,
+		"label": 0,
+		"iteration": 0,
+		"scan": false
+	},
+	{
+		"src": "detik",
+		"base_url": "https://detik.com",
+		"regex": "^(.*/read/.*|.*/d-[0-9]*/.*)$",
+		"title_level": "h1",
+		"title_tag": null,
+		"title_code": null,
+		"article_level": "div",
+		"article_tag": "class",
+		"article_code": "(text_detail|detail_text|read__content)",
+		"label": 1,
+		"iteration": 0,
+		"scan": false
+	},
+	{
+		"src": "kompas",
+		"base_url": "http://kompas.com",
+		"regex": "^(.*/read/.*)$",
+		"title_level": "h2",
+		"title_tag": null,
+		"title_code": null,
+		"article_level": "div",
+		"article_tag": "class",
+		"article_code": "kcm-read-text",
+		"label": 1,
+		"iteration": 0,
+		"scan": false
+	},
+	{
+		"src": "intelijen",
+		"base_url": "http://www.intelijen.co.id",
+		"regex": "^(http://|https://)?www.intelijen.co.id/(?!(category|contact)/).+$",
+		"title_level": "h1",
+		"title_tag": "class",
+		"title_code": "heading1",
+		"article_level": "p",
+		"article_tag": null,
+		"article_code": null,
+		"label": 0,
+		"iteration": 0,
+		"scan": false
+	},
+	{
+		"src": "liputan6",
+		"base_url": "http://www.liputan6.com/info/sitemap",
+		"regex": "^(?!(plus|twitter|facebook|video|tv).+$).+.liputan6.com/read/.+$",
+		"title_level": "h1",
+		"title_tag": "class",
+		"title_code": "read-page--header--title",
+		"article_level": "div",
+		"article_tag": "class",
+		"article_code": "article-content-body__item-page",
+		"label": 1,
+		"iteration": 0,
+		"scan": false
+	},
+	{
+		"src": "tribunnews",
+		"base_url": "http://www.tribunnews.com",
+		"regex": "(?!^karir)^.+.tribunnews.com/(?!(search|tribunners|epaper|tag|indeks|about|help|privacy|lowongan|redaksi|info|contact|terms|video|images).*$).+/2[0-9]{3}/.+",
+		"title_level": "h1",
+		"title_tag": "id",
+		"title_code": "arttitle",
+		"article_level": "div",
+		"article_tag": "class",
+		"article_code": "txt-article",
+		"label": 1,
+		"iteration": 0,
+		"scan": false
+	},
+	{
+		"src": "jpnn",
+		"base_url": "http://www.jpnn.tk",
+		"regex": "http://www.jpnn.tk/[0-9]{4}/[0-9]{2}/.+html",
+		"title_level": "h1",
+		"title_tag": "class",
+		"title_code": "post-title",
+		"article_level": "div",
+		"article_tag": "id",
+		"article_code": "ads.+",
+		"label": 0,
+		"iteration": 2,
+		"scan": true
+
+	}
+
+
+]
