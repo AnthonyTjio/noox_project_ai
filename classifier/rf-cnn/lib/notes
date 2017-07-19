@@ -1,0 +1,17 @@
+training-1A - lr: 1e-6 -stem -stop -src 30bit X 
+training-1B - lr: 1e-7 -stem -stop -src 30bit X 
+
+training-2A - lr: 1e-6 +stem -stop -src 30bit X 
+training-2B - lr: 1e-7 +stem -stop -src 30bit X
+
+training-3A - lr: 1e-6 +stem +stop -src 30bit X 
+training-3B - lr: 1e-7 +stem +stop -src 30bit X
+
+training-4A - lr: 1e-6 +stem +stop +src 30bit X
+training-4B - lr: 1e-7 +stem +stop +src 30bit X
+
+training-5A - lr: 1e-6 +stem +stop -src 90bit X
+training-5B - lr: 1e-7 +stem +stop -src 90bit X
+
+training-6A - lr: 1e-6 +stem +stop +src 90bit 
+training-6B - lr: 1e-7 +stem +stop +src 90bit
